@@ -1,8 +1,5 @@
-// const heading = React.createElement("h1", { id: "heading" }, "hello form React ji");
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-
-// root.render(heading);
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 
 const parent = React.createElement(
@@ -14,7 +11,7 @@ const parent = React.createElement(
         React.createElement(
             "h1",
             { id: "heading" },
-            "I'm from Heading one!!"
+            "I'm from Heading one!!" 
         )
     )
 )

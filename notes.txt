@@ -1,0 +1,10 @@
+# package.json : it is basically a configuration for our npm and contains all the dependencies along with their versions.
+
+
+#Most importent package in our project is bundler ie. webpack, parcel, wheat;
+#type of dependencies :  1. dev dependencies(used at the time of develop only)   2. normal Dependencies(used at the time of production also)
+
+
+
+#carot(^) and tilde(~) in dependecy verisons : carot installs minor upgrade automatically in our app and tilde(~) installs major upgrades automatically. 
+
