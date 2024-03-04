@@ -1,22 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+//JSX - it is not html. it is like html or xml like syntax
 
-const parent = React.createElement(
-    "div",
-    { id: "parent" },
-    React.createElement(
-        "div",
-        { id: "child" },
-        React.createElement(
-            "h1",
-            { id: "heading" },
-            "I'm from Heading one!!" 
-        )
-    )
-)
-
+//Title
+const Title = () => {
+  return (
+    <div>
+      <h1>I'm a React component</h1>
+    </div>
+  );
+};
+const Heading = () => {
+  return (
+    <div>
+      <Title />
+      <h1 id="heading">Namaste React using JSX</h1>
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+// console.log(root)
+
+root.render(<Heading />);
